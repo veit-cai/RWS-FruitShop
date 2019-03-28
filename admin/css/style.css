@@ -1,0 +1,319 @@
+body , ul , h1 , p , dt ,dd{
+    margin: 0;
+    padding: 0
+}
+
+ul , li{
+    list-style: none;
+}
+body {
+    color: #555;
+    min-width: 592px;
+    overflow: hidden;
+    background: url(../images/bg.png);
+    
+    font-family: Helvetica,simsun;
+}
+div{
+    display: block;
+}
+form{
+    display: block;
+}
+a{
+    text-decoration: none;
+}
+.left{
+    float: left;
+}
+.right{
+    float: right;
+}
+.top {
+    height: 42px;
+    
+    
+   
+background: linear-gradient(135deg, #8BC6EC 0%, #9599E2 100%);
+
+    line-height: 42px;
+    color: #fff;
+    font-size: 14px;
+}
+.top h1 {
+    height: 42px;
+    font-size: 19px;
+    color: #FFF;
+    margin-left: 40px;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+.top h1 span {
+    color: #0B1224;
+    font-weight: bold;
+}
+.login .box {
+    width: 400px;
+    background: #fff;
+    margin: 7% auto;
+    padding: 50px;
+    box-shadow: 0 0 15px #ccc;
+}
+.login .box table {
+    width: 100%;
+    height: 300px;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+.login .box h1 {
+    font-size: 24px;
+    color: #555;
+    text-align: center;
+    text-shadow: 1px 1px 1px #ccc;
+}
+.login .box th {
+    text-align: right;
+    font-weight: normal;
+}
+.login .box .input {
+    width: 250px;
+    height: 20px;
+    border: 1px solid #ddd;
+    padding: 5px;
+    color: #666;
+    font-size: 20px;
+}
+.login .box .login_btn {
+    width: 80px;
+    height: 30px;
+    margin: 0 auto;
+    background: #0077A2;
+    color: #fff;
+    border: 1px solid #DEEFFA;
+    cursor: pointer;
+}
+.top ul.right{
+    margin-right: 50px;
+}
+.top .right li{
+    /* display: inline-block; */
+    vertical-align: middle;
+    float: left;
+    margin-left: 15px;
+}
+.top a {
+    color: #ccc;
+    float: right
+}
+.top a:hover{
+    text-decoration: underline;
+}
+.top ul li:first-of-type a{
+    margin-left: 15px;
+}
+.main{
+    position: relative;
+    
+    /* overflow: hidden; */
+}
+.main .menu{
+    width: 360px;
+    /* height: 100vh; */
+    border: 1px solid #ccc;
+    box-shadow: 0px 1px 0px #ffffff;
+    position: absolute;
+    top: 20px;
+    left: 30px;
+    background: #fff;
+    
+}
+.main .menu .menu-head{
+    height: 43px;
+    border-bottom: 1px solid #aaa;
+    background: linear-gradient(#FCFCFC , #DFDFDF);
+    color: #333;
+    text-shadow: 1px 1px 1px #fff;
+}
+.main .menu .menu-head i{
+    content: '';
+    float: left;
+    margin-top: 12px;
+    width: 17px;
+    height: 14px;
+    /* display: inline-block; */
+    margin: 15px 5px 0 15px;
+    background: url(../images/menu_top_icon.png) no-repeat;
+    /* vertical-align: middle; */
+}
+.main .menu .menu-head div{
+    float: left;
+    margin-top: 12px;
+}
+.main .menu ul li{
+    height: 50px;
+   
+}
+.main .menu ul li a{
+    height: 50px;
+    display: block;
+    text-decoration: none;
+    color: #555;
+    text-indent: 20px;
+    line-height: 50px;
+    font-size: 14px;
+}
+.main .menu ul li a:hover{
+	background: #8bc5ec;
+	color: #fff;
+}
+.big{
+	 position: relative;
+    top: 32px;
+    left: 420px;
+    width: auto;
+}
+.item{
+    /*position: absolute;*/
+    /*top: 32px;
+    left: 0px;*/
+}
+.item .title{
+	
+    color: #444;
+    margin-bottom: 10px;
+    font-family: 'Microsoft YaHei';
+    font-size: 22px;
+}
+
+.backg{
+	width: 900px;
+	overflow: hidden;
+}
+
+.item .bordered{    
+    /*width: 1000px;*/
+   max-width: 800px;
+   float: left;
+    border: solid #dadada 1px;
+    padding-top: 5px;
+    padding-bottom: 15px;
+    background-color: #fff;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+.item .bordered dt{
+    border-bottom: solid #DFE4E7 1px;
+    text-align: left;
+    padding: 15px 0;
+    margin-bottom: 5px;
+    text-indent: 15px;
+    font-weight: bold;
+}
+.item .bordered dd{
+    margin: 35px  35px;
+}
+.item .top-button{
+    line-height: 20px;
+}
+.item .top-button .light{
+    background: #8BC5EB;
+    color: #fff !important;
+    display: inline-block;
+    margin-right: 12px;
+    padding: 5px 15px;
+    font-size: 12px;
+    height: 25px;
+    line-height: 25px;
+    text-align: center;
+    border-radius: 8px;
+    color: #555;
+    cursor: pointer;
+}
+.item .top-button .light:hover{
+    background: #959AE3;
+    /*font-size: 13px;*/
+    
+}
+.item .list{
+    width: 600px;
+    margin-right: 20px;
+    padding: 20px;
+    background: #fff;
+    margin-top: 15px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    
+}
+.item .list table{
+    margin-left: 15px;
+    line-height: 35px;
+    width: auto;
+}
+.item .list table th{
+    text-align: right;
+    font-weight: normal;
+    vertical-align: top;
+    width: 100px;
+}
+.item .list table input[type = text]{
+    height: 20px;
+}
+.item .list select{
+    height: 28px;
+    min-width: 80px;
+    border: 1px solid #aaa;
+}
+.item .btn input[type = submit]{
+    margin: 20px 100px;
+}
+.list-goods {
+    margin-top: 30px;
+    width: 945px;
+    height: auto;
+    background: #fff;
+    border-radius: 10px;
+}
+.list-goods table{
+    padding: 20px 10px 20px 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+}
+.list-goods table:first-of-type tr{
+    display: block;
+    border-bottom: 1px solid #ccc;
+}
+.list-goods table tr:last-of-type{
+    display: block;
+    border-bottom: none;
+}
+.list-goods table th{
+    /* height: 40px; */
+    padding: 20px 0;
+}
+.list-goods table tr:first-of-type th{
+    text-align: left;
+}
+.list-goods table td{
+    padding: 20px 0;
+}
+.pagelist{
+	margin-top: 20px;
+}
+.pagelist a{
+	width: 50px;
+	height: 30px;
+	background: #fff;
+	padding: 8px 10px;
+	text-align: center;
+	color: #0077AA;
+	border-radius: 5px;
+}
+.list-goods table a.alter{
+	color: #1F6FB5;
+}
+.list-goods table a.del{
+	color: #e03636;
+}
+.pagelist a:hover{
+	background: #EEEEEE;
+}

@@ -1,0 +1,70 @@
+.zc {
+    width: 1400px;
+    margin: 30px auto;
+}
+
+.zc-hear {
+    text-align: left;
+    font-size: 20px;
+
+    padding-right: 5px;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 20px;
+}
+
+.zc-hear .user {
+    border-left: 4Px solid #FEBA10;
+}
+
+.zc-hear .user b {
+    padding-left: 20px;
+    font-weight: 500;
+}
+
+.mesbox {
+    width: 1000px;
+    margin: 50px 0;
+    /* margin: 0 auto; */
+}
+.mesbox h3{
+    width: 640px;
+    line-height: 40px;
+    text-align: left;
+    font-weight: inherit;
+}
+.mesbox table.register input[type = text]{
+    width: 280px;
+}
+.mesbox table.register input[type = submit]{
+    width: 100px;
+    height: 40px;
+    margin-top: 30px;
+    background: #FEBA10;
+    border: none;
+    color: #fff;
+    font-size: 14px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.mesbox table.register input[type = submit]:hover{
+    font-size: 15px;
+    background: #f18210;
+}
+.mesbox table.register tr .p{
+   font-size: 14px;
+  color: #666;
+    padding-left: 10px;
+}
+
+.mesbox table.register tr th {
+    text-align: left;
+    font-size: 16px;
+    font-family: '微软雅黑';
+    color: #666;
+    font-weight: inherit;
+    padding-right: 20px;
+}
+
+.mesbox table.register tr th i {
+    color: red;
+}

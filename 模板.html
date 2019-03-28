@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="icon" href="./images/logo-icon.png" />
+    <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" href="./css/reset.css" />
+    <title>RWS-FruitShop>关于我们</title>
+</head>
+
+<body>
+    <header id="gotop">
+        <div class="top">
+            <div class="logo fl"></div>
+            <div class="option fr">
+                <li><a href="">网站首页</a></li>
+                <li><a href="">鲜果专区</a></li>
+                <li><a href="">限时特惠</a></li>
+                <li><a href="">关于我们</a></li>
+                <li><a href="">新闻资讯</a></li>
+                <form class="search">
+                    <input type="text" name="" value="" placeholder="search..." />
+                    <input type="submit" name="" value="" />
+                </form>
+            </div>
+        </div>
+
+    </header>
+
+    <center>
+        <!--粘性定位按钮-->
+        <div class="icon">
+            <li><a href="">购物车</a></li>
+            <li class="login">
+                <span>
+                    <p>终于等到您了~赶紧登录吧！</p>
+                    <button class="btn" onclick="document.getElementById('id01').style.display='block'" style="width:auto;">
+
+
+                        <img src="images/login.png" />
+
+
+                </span>
+            </li>
+            <li></li>
+            <li><a href="">在线留言</a></li>
+            <a href="#gotop"></a>
+        </div>
+        <div id="id01" class="modal">
+            <form class="modal-content animate" action="/action_page.php">
+                <div class="imgcontainer">
+                    <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+                    <div class="move">
+                    </div>
+                </div>
+                <div class="container">
+                    <label><b>Username</b></label>
+                    <input type="text" placeholder="Enter Username" name="uname" required>
+
+                    <label><b>Password</b></label>
+                    <input type="password" placeholder="Enter Password" name="psw" required>
+
+                    <button type="submit">登陆</button>
+                    <input type="checkbox" checked="checked"> 记住我
+                </div>
+
+                <div class="container" style="background-color:#f1f1f1">
+                    <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+
+                </div>
+            </form>
+        </div>
+        <!--中部轮播图-->
+        <div class="bg"></div>
+        <div class="banner">
+            <div class="banner-pic"></div>
+            <div class="banner-txt">
+                <div class="text fl">来杯鲜榨果汁，清爽一夏。</div>
+                <div class="tu fr"></div>
+            </div>
+        </div>
+        </center>
+        <!-- 头部固定轮播结束 -->
+
+        <!-- 编辑部分开始 -->
+
+
+
+
+        <!-- 尾部固定结束部分 -->
+        <footer>
+            <div class="buttom">
+                <div class="tagline">
+                    <p>我们的宗旨 :</p>
+                    <h3>提高水果质量，买最好的水果，赚最多的钱 23333</h3>
+                </div>
+            </div>
+            <div class="message">
+                <div class="bt-left fl">
+                    <li>联系地址：XXX省XXX市XXX县XXX路XXX号</li>
+                    <li>传真号码：020-000000</li>
+                    <li>联系电话：400-000-0000</li>
+                    <li>联系邮箱：123456xxx@163.com</li>
+                    <li>在线客服：111111111111</li>
+                    <p>Copyright 2017-2018 , shuiguo水果 ,NHGSnet3 All Rights Reserved</p>
+                </div>
+                <div class="bt-right fr">
+                    <span>
+                        <img src="images/code1.jpg" />
+                        <p>扫码领百元红包</p>
+                    </span>
+                    <span>
+                        <img src="images/code2.jpg" />
+                        <p>关注有惊喜</p>
+                    </span>
+                    <span>
+                        <img src="images/code3.jpg" />
+                        <p>下载APP，赢现金</p>
+                    </span>
+                </div>
+
+            </div>
+        </footer>
+</body>
+
+</html>

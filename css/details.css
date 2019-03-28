@@ -1,0 +1,101 @@
+section.details{
+    /* background: #e43; */
+    width: 1200px;
+}
+.headline{
+    padding: 30px 30px 10px;
+    color: #888;
+    font-size: 14px;
+    border-bottom: 2px solid #FEBA10;
+    background: url(../images/tu8.png) no-repeat 0 30px;
+    text-align: left;
+}
+.headline>span{
+    color: #FEBA10;
+    padding: 0 5px;
+}
+.shop{
+    width: 1000px;
+    margin: 30px auto;
+}
+.shop-pic{
+    width: 420px;
+    height: 420px;
+    border: 1px solid #FEBA10;
+}
+.shop-pic>img:hover{
+    transform: scale(1.1);
+    transition:all .5s;
+}
+.tab>h3{
+    background: #FEBA10;
+    line-height: 40px;
+    text-align: center;
+    margin-bottom: 20px;
+    letter-spacing:2px;
+    color: #fff; 
+}
+.tab table{
+    text-align: left;
+}
+.tab table tr{
+    width: 500px;
+    line-height: 35px;
+    display: block;
+}
+th{
+    width: 100px;
+    padding-left: 30px
+}
+.col{
+    border-bottom: 1px solid #ffebbd;
+}
+table .price{
+    padding-left: 40px;
+    font-size: 12px;    
+    color: #999;
+    text-decoration: line-through;
+    background: url(../images/hoticon.gif) no-repeat 3px -5px;
+}
+table tr td .num-btn{
+    height: 22px;
+    width: 80px;
+    padding: 12px 0px;
+    text-align: center;
+}
+table .button{
+    margin: 36px 80px;
+    display: block;
+    text-align: center;
+    
+}
+table .btn{
+    background: #FEBA10;
+    color: #fff;
+    line-height: 40px;
+    padding: 0 20px;
+    margin: 0 20px; 
+    border-radius: 5px;
+    display:inline-block;
+    font-size: 14px;
+    box-shadow: 0 0 5px #f18210;
+}
+table .btn:hover{
+    font-size: 15px;
+    background: #f18210
+}
+
+/*  详情内容  */
+.matter h3{
+	text-align: left;
+    padding: 10px 50px;
+    color: #fff;
+    background: url(../images/fly.png) no-repeat 15px center ;
+    background-color: #FEBA10;   
+}
+.matter-pic{
+    margin: 50px auto;
+    width: 950px;
+    
+}
+

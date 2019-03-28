@@ -1,0 +1,65 @@
+body {
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.auto-img {
+    width: 100%;
+    display: block;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #333;
+}
+
+.uniline {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.even {
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+}
+
+.fl {
+    float: left;
+}
+
+.fr {
+    float: right;
+}
+
+.over {
+    overflow: hidden;
+}
+
+.clear {
+    display: block;
+    clear: both;
+}
+
+.hd:hover {
+    text-decoration: underline;
+}

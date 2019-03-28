@@ -1,0 +1,92 @@
+section.list{
+    /* background: #e43; */
+    width: 1200px;
+}
+.headline{
+	text-align: left;
+    padding: 30px 30px 10px;
+    color: #888;
+    font-size: 14px;
+    border-bottom: 2px solid #FEBA10;
+    background: url(../images/tu8.png) no-repeat 0 30px;
+}
+.headline>span{
+    color: #FEBA10;
+    padding: 0 5px;
+}
+
+.boxnin{
+    overflow: hidden;
+    margin: 30px 0;
+}
+.advertising{
+    width: 288px;
+    height: 600px;
+    padding-top: 10px;  
+}
+.merchandise{
+    width: 912px;
+}
+.merchandise>ul{
+    overflow: hidden;
+}
+.merchandise li{
+    /* width: 227px; */
+    height: 298px;
+    float: left;
+    cursor: pointer;
+    margin:10px;
+    /* padding: 5px; */
+    border: 1px solid #e5e5e5; 
+}
+.merchandise li:not(.clare){
+    border-top: 1px solid #e5e5e5;
+}
+
+.merchandise li>div{
+    width: 200px;
+    margin: 0 auto;
+}
+.merchandise li>div .pic{
+    width: 180px;
+    margin: 10px auto;
+}
+.merchandise li>div .pic:hover{
+    transform: scale(1.1);
+}
+.merchandise li>div i{
+    font-size: 14px;
+    font-style: inherit;
+    color: #333;
+}
+.merchandise li>div .node{
+    display: block;
+    padding: 0 10px;
+}
+
+.merchandise li>div .text{
+    margin: 10px 0;
+    font-size: 13px;
+    padding: 0 10px;
+    color: #FEBA10;
+}
+.merchandise li>div .text>span{
+    padding-left: 5px;
+}
+.merchandise li>div .text .moneny{
+    font-size: 20px;
+    color: #FEBA10;
+}
+.merchandise li>div .text .no{
+    color: #999;
+}
+.merchandise li>div .text .no i{
+    color: #999;
+    text-decoration: line-through;
+}
+.end{
+    width: 140px;
+    height: 280px;
+    background: url("../imager/more.png")no-repeat center;
+    background-size: cover  ;
+}
